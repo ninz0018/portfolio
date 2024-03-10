@@ -10,8 +10,11 @@
     color: rgb(238, 184, 84);
   }
 
+  .but {
+    box-shadow: 5px  5px 10px rgba(255, 255, 255, 0.5);
+  }
   .buttonC {
-    background: linear-gradient(#f6ff45,#d1d1c8);
+    background: linear-gradient(#ff457d,#d61111);
     border-radius: 20px;
   }
   .scalehover{
@@ -22,14 +25,25 @@
     transition: all 0.3s ease-in-out;
   }
   .scalehover:hover{
-    transform: scale(1.3);
+    transform: scale(1.2);
+    box-shadow: 0 0 10px 5px rgba(0, 123, 255, 0.5);
   }
   
+  .bar {
+    overflow: hidden;
+    background-color: rgba(122, 65, 255, 0.5);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    z-index: 999;
+    top: 0;
+  }
+
   .trans {
     background: linear-gradient(#67a4ff,#000000);
+    opacity: 0.5;
   }
   .back {
-    height: 2000px;
+
     background: linear-gradient(#281a64,#000000);
   }
   .animated-image {
@@ -41,17 +55,17 @@
   
   @keyframes slide-in {      
     0% {
-        border-radius: 10px;
+        opacity: 0;
         transform: scale(1); /* Initial position or style */
         background: linear-gradient(#926df7,#da2360);
     }
     50% {
-        border-radius: 60px;
+        
         transform: scale(1.5); /* Middle position or style */
         background: linear-gradient(#7dfcfc,#3c2192);
     }
-    100% {
-        border-radius: 60px;
+    100% {  
+        opacity: 1;
         transform: scale(1.5); /* Middle position or style */
         background: linear-gradient(#5ef0a7,#1020ad);
     }
