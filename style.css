@@ -1,0 +1,59 @@
+.container {
+    width: 200px;
+    height: 200px;
+  }
+
+  p {
+    text-indent: 50px;
+  }
+  .fyellow {
+    color: rgb(238, 184, 84);
+  }
+
+  .buttonC {
+    background: linear-gradient(#f6ff45,#d1d1c8);
+    border-radius: 20px;
+  }
+  .scalehover{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .scalehover:hover{
+    transform: scale(1.3);
+  }
+  
+  .trans {
+    background: linear-gradient(#67a4ff,#000000);
+  }
+  .back {
+    height: 2000px;
+    background: linear-gradient(#281a64,#000000);
+  }
+  .animated-image {
+    width: 200px;
+    height: auto;
+    box-shadow: 10px 10px 15px rgba(255, 114, 114, 0.5); 
+    animation: slide-in 2s ease infinite alternate; /* Animation name, duration, timing function, and iteration */
+  }
+  
+  @keyframes slide-in {      
+    0% {
+        border-radius: 10px;
+        transform: scale(1); /* Initial position or style */
+        background: linear-gradient(#926df7,#da2360);
+    }
+    50% {
+        border-radius: 60px;
+        transform: scale(1.5); /* Middle position or style */
+        background: linear-gradient(#7dfcfc,#3c2192);
+    }
+    100% {
+        border-radius: 60px;
+        transform: scale(1.5); /* Middle position or style */
+        background: linear-gradient(#5ef0a7,#1020ad);
+    }
+    
+}  
