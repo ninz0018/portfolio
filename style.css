@@ -48,6 +48,7 @@ html {
   .scalehover:hover{
     transform: scale(1.2);
     box-shadow:  0 10px 5px rgba(75, 255, 240, 0.5);
+    background-color: #52a3ff;
   }
   
   .active {
@@ -120,3 +121,5 @@ li:hover {
         background: linear-gradient(#5ef0a7,#1020ad);
     }    
 }  
+
+
