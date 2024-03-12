@@ -6,6 +6,7 @@
   p {
     text-indent: 50px;
   }
+
   .fyellow {
     color: rgb(238, 184, 84);
   }
@@ -13,22 +14,38 @@
   .but {
     box-shadow: 5px  5px 10px rgba(255, 255, 255, 0.5);
   }
+
   .buttonC {
     background: linear-gradient(#ff457d,#d61111);
     border-radius: 20px;
   }
-  .scalehover{
+
+  .scalehover {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
+
   .scalehover:hover{
     transform: scale(1.2);
-    box-shadow: 0 0 10px 5px rgba(0, 123, 255, 0.5);
+    box-shadow:  0 10px 5px rgba(75, 255, 240, 0.5);
   }
   
+  .active {
+    background-color: #000000; 
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+  }
+  
+  
+li:hover {
+    background-color: #252525;
+    border-radius: 10px;
+  }
+
+ 
   .bar {
     overflow: hidden;
     background-color: rgba(122, 65, 255, 0.5);
@@ -42,17 +59,19 @@
     background: linear-gradient(#67a4ff,#000000);
     opacity: 0.5;
   }
+
   .back {
 
     background: linear-gradient(#281a64,#000000);
   }
+
   .animated-image {
     width: 200px;
     height: auto;
     box-shadow: 10px 10px 15px rgba(255, 114, 114, 0.5); 
     animation: slide-in 2s ease infinite alternate; /* Animation name, duration, timing function, and iteration */
   }
-  
+
   @keyframes slide-in {      
     0% {
         opacity: 0;
@@ -68,6 +87,5 @@
         opacity: 1;
         transform: scale(1.5); /* Middle position or style */
         background: linear-gradient(#5ef0a7,#1020ad);
-    }
-    
+    }    
 }  
