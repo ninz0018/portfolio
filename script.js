@@ -4,6 +4,6 @@ $(document).ready(function() {
     $("#me").wrap(`<a href="https://ninzgradecalculator.netlify.app/" target="_blank"></a>`);
     $("#but").wrap(`<a href="https://getbootstrap.com/" target="_blank"></a>`);
     $('body').scrollspy({ target: '#navbar' });
-    $("#prof").wrap(`<a href="https://www.facebook.com/ninz.getz.9" target="_blank"></a>`);
+    $("#prof").wrap(`<a href="https://www.facebook.com/ninz.getz.9" class="d-flex align-items-center justify-content-center" target="_blank"></a>`);
   });
 

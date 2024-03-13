@@ -10,6 +10,16 @@ html {
     color: rgb(238, 184, 84);
   }
 
+  .fade-element {
+    opacity: 1; /* Initial opacity */
+    transition: opacity 0.5s ease; /* Smooth transition */
+  }
+  
+  .fade-out {
+    opacity: 0; /* Fade out when scrolling */
+  }
+  
+
   .but {
     box-shadow: 5px  5px 10px rgba(255, 255, 255, 0.5);
   }
