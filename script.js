@@ -7,6 +7,3 @@ $(document).ready(function() {
     $("#prof").wrap(`<a href="https://www.facebook.com/ninz.getz.9" target="_blank"></a>`);
   });
 
- $(document).on(`click`,`#prof`,function(){
-    
- })
