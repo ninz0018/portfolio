@@ -95,7 +95,7 @@ li:hover {
 
   @keyframes slide-in {      
     0% {
-        opacity: 0;
+        opacity: 0.3;
         transform: scale(1); /* Initial position or style */
         background: linear-gradient(#926df7,#da2360);
     }
